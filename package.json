@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/runtime": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "css-loader": "^5.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "postcss-loader": "^5.2.0",
+    "prop-types": "^15.7.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "scripts": {
+    "start": "webpack serve --hot --open 'google chrome' --progress --json > stats.log",
+    "help": "webpack --help"
+  }
+}
