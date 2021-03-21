@@ -1,15 +1,22 @@
-import {useMemo, useState} from "react";
+import {useState} from "react";
 
 const useBoolean = (initData = false)=>{
     const [bool, setBool] = useState(initData)
 
-    const set = useMemo((_bool)=> {
-        if (_bool !== bool) {
-            console.log('boolean set: ', _bool)
-            setBool(_bool)
-        }
-    }, [])
-    return [bool, ()=>set(true), ()=>set(false)]
+    const setTrue = ()=> {
+        setBool(true)
+    }
+
+    const setFalse = ()=> {
+        setBool(false)
+    }
+    const set = (_bool)=> {
+
+    }
+
+    console.log('boolean')
+
+    return [bool, setTrue, setFalse]
 }
 
 export default useBoolean

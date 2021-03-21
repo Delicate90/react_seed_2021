@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import useBoolean from "./useBoolean";
 import PropTypes from 'prop-types';
 
@@ -11,6 +11,7 @@ const useAsync = (promiseA, {
 
     // 可继续
     let visible = true;
+    const ready = useRef(false);
     // 轮询
     let pollingIndex = 0;
     let pollingContainer = null;
@@ -20,7 +21,6 @@ const useAsync = (promiseA, {
     const [data, setData] = useState(initData);
     const [err, setErr] = useState('');
     const [loading, startLoading, stopLoading] = useBoolean(false);
-    console.log('init loading', loading)
 
     const _run = ()=> {
         if (!visible) {
@@ -34,25 +34,26 @@ const useAsync = (promiseA, {
             if (visible) setErr(err)
         }).finally(()=>{
             console.log('finally')
-            // if (loadingDelay && typeof loadingDelay === 'number' && loadingDelay > 0) {
-            //     loadingDelayContainer = setTimeout(stopLoading, loadingDelay)
-            // } else {
-            //     stopLoading()
-            // }
+            if (loadingDelay && typeof loadingDelay === 'number' && loadingDelay > 0) {
+                loadingDelayContainer = setTimeout(stopLoading, loadingDelay)
+            } else {
+                stopLoading()
+            }
         })
     };
 
-    const run = ()=> {
+    const run = useCallback(()=> {
+        console.log('async promise')
+        ready.current = true;
         if (pollingInterval && typeof pollingInterval === 'number' && pollingInterval > 0) {
             pollingContainer = setInterval(()=>{
                 _run();
                 pollingIndex++;
             }, pollingInterval)
         } else {
-            console.log('else');
             _run()
         }
-    };
+    }, [promiseA]);
 
     const cancel = ()=> {
         visible = false;
@@ -84,14 +85,14 @@ const useAsync = (promiseA, {
 
     //--执行阶段
     //主参数格式判断
-    if (!promiseA) {
-        setError('found no Promise.')
-    }
-    if (!promiseA instanceof Promise) {
-        setError('found no Promise.')
-    }
-    if (auto) {
-        run()
+    if (!promiseA || !promiseA instanceof Promise) {
+        console.error('useAsync -> found no Promise.')
+    } else {
+        useEffect(()=>{
+            if (auto) {
+                run()
+            }
+        }, [])
     }
     return [data, {loading, error:err, run, cancel, setData: _setValue, setError}]
 };
