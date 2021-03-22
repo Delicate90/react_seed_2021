@@ -11,7 +11,8 @@ const useAsync = (promiseA, {
 
     // 可继续
     let visible = true;
-    const ready = useRef(false);
+    // 可执行
+    let ready = true;
     // 轮询
     let pollingIndex = 0;
     let pollingContainer = null;
@@ -20,35 +21,42 @@ const useAsync = (promiseA, {
 
     const [data, setData] = useState(initData);
     const [err, setErr] = useState('');
-    const [loading, startLoading, stopLoading] = useBoolean(false);
+    const [loading, {setTrue: startLoading, setFalse: stopLoading}] = useBoolean(false, 'loading');
 
     const _run = ()=> {
         if (!visible) {
             return
         }
+        if(!ready) {
+            return
+        }
+        ready = false;
         startLoading();
-        promiseA.then(data=>{
+        promiseA().then(data=>{
             if (visible) setData(data)
-
         }).catch(err=>{
             if (visible) setErr(err)
         }).finally(()=>{
-            console.log('finally')
             if (loadingDelay && typeof loadingDelay === 'number' && loadingDelay > 0) {
-                loadingDelayContainer = setTimeout(stopLoading, loadingDelay)
+                loadingDelayContainer = setTimeout(()=>{
+                    console.log('loadingDelay:', loadingDelay)
+                    stopLoading();
+                    ready = true;
+                }, loadingDelay)
             } else {
-                stopLoading()
+                stopLoading();
+                ready = true;
             }
         })
     };
 
     const run = useCallback(()=> {
         console.log('async promise')
-        ready.current = true;
         if (pollingInterval && typeof pollingInterval === 'number' && pollingInterval > 0) {
             pollingContainer = setInterval(()=>{
                 _run();
                 pollingIndex++;
+                console.log('pollingIndex:', pollingIndex);
             }, pollingInterval)
         } else {
             _run()

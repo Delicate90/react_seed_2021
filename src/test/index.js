@@ -1,31 +1,28 @@
-import React, {useCallback} from "react";
+import React from "react";
 import useAsync from "../hooks/useAsync";
 import useBoolean from "../hooks/useBoolean";
-import useAsync1 from "../hooks/useAsync1";
 
 export default ()=> {
-    console.log('test start')
 
-    // const [a, setTrue, setFalse] = useBoolean(true);
-
-
-
-    const load = useCallback(()=> {
-        return new Promise(resolve => {
-            setTimeout(()=>{
-                resolve('hello!!!!!')
-            }, 2000)
+    const load = ()=> new Promise((resolve, reject) => {
+        fetch('http://localhost:35544').then(res=>res.text()).then(res=>resolve(res)).catch(err=>{
+            reject(err)
         })
-    }, [])
+    })
 
-    // const [data, dataOptions = {}] = useAsync1(load, true);
-    const [data, dataOptions = {}] = useAsync(load(), {auto: true})
+    const [bool, optBool] = useBoolean(false, 'bool');
+    const [data, dataOptions = {}] = useAsync(load, {auto: false, initData: 'hi!!'})
 
     return (
         <div>
             <button onClick={dataOptions.run}>run</button>
             <div>loading: {dataOptions.loading + ''}</div>
             <div>data: {data}</div>
+            <div>bool: {bool + ''}</div>
+            <div>
+                <button onClick={optBool.setTrue}>bool true</button>
+                <button onClick={optBool.setFalse}>bool false</button>
+            </div>
         </div>
     )
 }

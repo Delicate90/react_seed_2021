@@ -1,22 +1,21 @@
-import {useState} from "react";
+import {useMemo, useState} from "react";
 
-const useBoolean = (initData = false)=>{
+const useBoolean = (initData = false, key)=>{
     const [bool, setBool] = useState(initData)
 
-    const setTrue = ()=> {
-        setBool(true)
-    }
 
-    const setFalse = ()=> {
-        setBool(false)
-    }
     const set = (_bool)=> {
-
+        console.log('key:', _bool)
+        setBool(_bool)
     }
 
-    console.log('boolean')
+    const actions = useMemo(()=>{
+        const setTrue = ()=> set(true)
+        const setFalse = ()=> set(false)
+        return {setTrue, setFalse}
+    }, [set])
 
-    return [bool, setTrue, setFalse]
+    return [bool, actions]
 }
 
 export default useBoolean
