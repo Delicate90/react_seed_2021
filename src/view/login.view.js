@@ -1,13 +1,17 @@
 import {createRoute} from "../router";
-import React from "react";
+import React, {useEffect} from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 import config from "../config";
-import {u, useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 
 export default createRoute({path: '/login', auth: false}, ()=>{
 
-    const [t, setToken] = useLocalStorage(config.TOKEN_KEY);
+    const [t, setToken, clearToken] = useLocalStorage(config.TOKEN_KEY);
     const history = useHistory();
+
+    useEffect(()=>{
+        if (t) clearToken()
+    }, [])
 
     const login = ()=> {
         setToken('12334353453523123123');
@@ -17,8 +21,6 @@ export default createRoute({path: '/login', auth: false}, ()=>{
             query: {qqq: 'qqq'}
         });
     };
-
-    console.log('history', history)
 
     return (
         <div>

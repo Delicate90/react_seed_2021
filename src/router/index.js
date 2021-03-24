@@ -19,14 +19,31 @@ export const createRoute = (_path = '', container)=> {
         return <AuthRoute path={_path} component={container} auth={true}/>
     }
     if (typeof _path === 'object') {
+        if (Array.isArray(_path)) {
+            return _path.map(p=><AuthRoute path={p} component={container} auth={true}/>)
+        }
         const {path, strict = false, exact = false, auth = false} = _path;
-        return <Route path={path} component={container} strict={strict} exact={exact} auth={auth}/>;
+        if (!path) {
+            return <Fragment/>
+        }
+        if (Array.isArray(path)) {
+            return path.map(p=><Route path={p} component={container} strict={strict} exact={exact} auth={auth}/>)
+        } else {
+            return <Route path={path} component={container} strict={strict} exact={exact} auth={auth}/>;
+        }
     }
     return <Fragment/>
 }
 
 export const collectRoutes = (contexts)=> {
-    const routes = contexts.keys().map(key=>({...contexts(key).default, key}));
+    const routes = contexts.keys().map(key=>{
+        const container = contexts(key).default;
+        if (Array.isArray(container)) {
+            return container.map((c, index)=>({...c, key: key + '[' + index + ']'}))
+        } else {
+            return {...container, key}
+        }
+    }).flat();
     routes.push(<Redirect exact key={'________base_path'} from={'/'} to={config.BASE_PATH}/>)
     return routes
 };

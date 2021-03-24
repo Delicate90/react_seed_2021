@@ -4,8 +4,8 @@ import useLocalStorage from "../hooks/useLocalStorage";
 import config from "../config";
 import {useHistory, useLocation, useParams} from "react-router";
 
-export default createRoute('/main/:id', ()=>{
-    console.log('aaa');
+export default createRoute(['/main/:id', '/main'], ()=>{
+
     const [t,s,clearToken] = useLocalStorage(config.TOKEN_KEY);
     const {replace} = useHistory();
     const {id} = useParams();
