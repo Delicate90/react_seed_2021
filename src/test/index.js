@@ -1,17 +1,19 @@
 import React from "react";
-import useAsync from "../hooks/useAsync";
 import useBoolean from "../hooks/useBoolean";
+import useRequest from "../hooks/useRequest";
 
 export default ()=> {
 
-    const load = ()=> new Promise((resolve, reject) => {
-        fetch('http://localhost:35544').then(res=>res.text()).then(res=>resolve(res)).catch(err=>{
-            reject(err)
-        })
-    })
+    // const load = ()=> new Promise((resolve, reject) => {
+    //     fetch('http://localhost:35544').then(res=>res.text()).then(res=>resolve(res)).catch(err=>{
+    //         reject(err)
+    //     })
+    // })
 
     const [bool, optBool] = useBoolean(false, 'bool');
-    const [data, dataOptions = {}] = useAsync(load, {auto: false, initData: 'hi!!'})
+    // const [data, dataOptions = {}] = useAsync(load, {auto: false, initData: 'hi!!'})
+
+    const [data, dataOptions = {}] = useRequest({url: 'http://192.168.9.242:8082/tripartite/hello/tripartite', data: {token:'123'}, headers: {Authorization:'321'}}, {initData: '666', auto: false})
 
     return (
         <div>

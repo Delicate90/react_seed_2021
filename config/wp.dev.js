@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     mode: "development",
-    entry: path.resolve(__dirname, '../src/index.js'),
+    entry: path.resolve(__dirname, '../app.js'),
     devtool: 'inline-source-map',
     module: {
         rules: [
@@ -81,7 +81,8 @@ module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, '../public'),
         port: '4001',
-        host: '0.0.0.0'
+        host: '0.0.0.0',
+        historyApiFallback: true
     },
     plugins: [
         new htmlWebpackPlugin({

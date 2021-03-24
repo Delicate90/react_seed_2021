@@ -1,615 +1,901 @@
 [34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:4001/
 [34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
 [34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/delicate/WebstormProjects/react_seed_2021/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
 [34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
-[34mℹ[39m [90m｢wdm｣[39m: asset main.js 3.52 MiB [emitted] (name: main)
+[34mℹ[39m [90m｢wdm｣[39m: asset main.js 3.77 MiB [emitted] (name: main)
 asset index.html 184 bytes [emitted]
 runtime modules 26.5 KiB 13 modules
-modules by path ./node_modules/ 1.32 MiB 41 modules
-modules by path ./src/ 3.54 KiB
-  modules by path ./src/hooks/*.js 2.66 KiB
-    ./src/hooks/useAsync.js 2.37 KiB [built] [code generated]
-    ./src/hooks/useBoolean.js 295 bytes [built] [code generated]
-  ./src/index.js 295 bytes [built] [code generated]
-  ./src/test/index.js 606 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 3166 ms
+modules by path ./node_modules/ 1.4 MiB 47 modules
+modules by path ./src/ 3.27 KiB
+  modules by path ./src/view/ 1.34 KiB
+    optional modules 1.15 KiB [optional] 2 modules
+    ./src/view/index.js 1 bytes [built] [code generated]
+    ./src/view/ sync \.view\.js$ 197 bytes [built] [code generated]
+  modules by path ./src/hooks/*.js 364 bytes
+    ./src/hooks/useLocalStorage.js 96 bytes [built] [code generated]
+    ./src/hooks/_createStorage.js 268 bytes [built] [code generated]
+  ./src/index.js 316 bytes [built] [code generated]
+  ./src/router/index.js 1.19 KiB [built] [code generated]
+  ./src/config/index.js 68 bytes [built] [code generated]
+./app.js 346 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 2992 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.0e1197642daddc53cf0a.hot-update.js 3.59 KiB [emitted] [immutable] [hmr] (name: main)
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.7bff76d840ee580f82f2.hot-update.js 1.89 KiB [emitted] [immutable] [hmr] (name: main)
 asset index.html 184 bytes [emitted]
-asset main.0e1197642daddc53cf0a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.0e1197642daddc53cf0a.hot-update.js 3.59 KiB
-cached modules 1.32 MiB [cached] 50 modules
+asset main.7bff76d840ee580f82f2.hot-update.json 49 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.7bff76d840ee580f82f2.hot-update.js 1.89 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 605 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 1006 ms
+built modules 377 bytes [built]
+  ./app.js 180 bytes [built] [code generated]
+  ./src/view/ sync \.view\.js$ 197 bytes [built]
+webpack 5.25.1 compiled successfully in 627 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.85761da46e432cfa88db.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.4ee8a9a9dfdacce63d71.hot-update.js 6.19 KiB [emitted] [immutable] [hmr] (name: main)
 asset index.html 184 bytes [emitted]
-asset main.85761da46e432cfa88db.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.85761da46e432cfa88db.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
+asset main.4ee8a9a9dfdacce63d71.hot-update.json 53 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.4ee8a9a9dfdacce63d71.hot-update.js 6.19 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.4 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 965 ms
+javascript modules 837 bytes
+  ./src/view/ sync \.view\.js$ 198 bytes [built] [code generated]
+  ./src/view/login.view.js 639 bytes [optional] [built] [code generated]
+webpack 5.25.1 compiled successfully in 1115 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.aeab45c418dca35c96bd.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.b25c1b1e365d2055a5cf.hot-update.js 5.84 KiB [emitted] [immutable] [hmr] (name: main)
 asset index.html 184 bytes [emitted]
-asset main.aeab45c418dca35c96bd.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.aeab45c418dca35c96bd.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
+asset main.b25c1b1e365d2055a5cf.hot-update.json 52 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.b25c1b1e365d2055a5cf.hot-update.js 5.84 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.42 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 719 ms
+javascript modules 735 bytes
+  ./src/view/ sync \.view\.js$ 199 bytes [built] [code generated]
+  ./src/view/main.view.js 536 bytes [optional] [built] [code generated]
+webpack 5.25.1 compiled successfully in 897 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.38e9e082e1880dae8cb9.hot-update.js 3.71 KiB [emitted] [immutable] [hmr] (name: main)
+[34mℹ[39m [90m｢wdm｣[39m: assets by status 3.77 MiB [cached] 1 asset
 asset index.html 184 bytes [emitted]
-asset main.38e9e082e1880dae8cb9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.38e9e082e1880dae8cb9.hot-update.js 3.71 KiB
-cached modules 1.32 MiB [cached] 50 modules
+cached modules 1.41 MiB (javascript) 26.5 KiB (runtime) [cached] 83 modules
+./src/view/ sync \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 169 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.43c91d53cb70f0c49c16.hot-update.js 3.97 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.43c91d53cb70f0c49c16.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.43c91d53cb70f0c49c16.hot-update.js 3.97 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 628 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 767 ms
+javascript modules 806 bytes
+  ./src/view/ sync \.view\.js$ 199 bytes [built]
+  ./src/view/login.view.js 607 bytes [optional] [built] [code generated]
+webpack 5.25.1 compiled successfully in 740 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.6c7e84e9c2aa746c9812.hot-update.js 2.38 KiB [emitted] [immutable] [hmr] (name: main)
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.a2aad488a4a281d44ccc.hot-update.js 6.98 KiB [emitted] [immutable] [hmr] (name: main)
 asset index.html 184 bytes [emitted]
-asset main.6c7e84e9c2aa746c9812.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.6c7e84e9c2aa746c9812.hot-update.js 2.38 KiB
-cached modules 1.32 MiB [cached] 50 modules
+asset main.a2aad488a4a281d44ccc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.a2aad488a4a281d44ccc.hot-update.js 6.98 KiB
+cached modules 1.4 MiB [cached] 68 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1.31 KiB
+  ./src/view/ sync \.view\.js$ 199 bytes [built]
+  ./src/view/login.view.js 608 bytes [optional] [built] [code generated]
+  ./src/view/main.view.js 537 bytes [optional] [built] [code generated]
+webpack 5.25.1 compiled successfully in 446 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.c8baa8b1655ed6f6de04.hot-update.js 1.61 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.c8baa8b1655ed6f6de04.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.c8baa8b1655ed6f6de04.hot-update.js 1.61 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/config/index.js 90 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 554 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.8fd6c2827eff46e0a63d.hot-update.js 6.78 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.8fd6c2827eff46e0a63d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.8fd6c2827eff46e0a63d.hot-update.js 6.78 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.32 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 974 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.1f083aa6256fa9a1a77f.hot-update.js 6.87 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.1f083aa6256fa9a1a77f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.1f083aa6256fa9a1a77f.hot-update.js 6.87 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.35 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 952 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.228b7f07eb05e190eaea.hot-update.js 6.56 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.228b7f07eb05e190eaea.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.228b7f07eb05e190eaea.hot-update.js 6.56 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.3 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 807 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.267c4850ebdadfdd0382.hot-update.js 6.87 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.267c4850ebdadfdd0382.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.267c4850ebdadfdd0382.hot-update.js 6.87 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.35 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 588 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.a54bb559e92a7ddbadf6.hot-update.js 6.93 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.a54bb559e92a7ddbadf6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.a54bb559e92a7ddbadf6.hot-update.js 6.93 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.37 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 1261 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.a4bca62ef47e654f8f65.hot-update.js 6.87 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.a4bca62ef47e654f8f65.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.a4bca62ef47e654f8f65.hot-update.js 6.87 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.35 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 408 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.0dadf98214842119cadc.hot-update.js 6.56 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.0dadf98214842119cadc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.0dadf98214842119cadc.hot-update.js 6.56 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.3 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 1278 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.0efd9ab08233bf564b6f.hot-update.js 6.23 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.0efd9ab08233bf564b6f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.0efd9ab08233bf564b6f.hot-update.js 6.23 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.19 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 907 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.e736b05bc1fd142b0ef8.hot-update.js 3.58 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.e736b05bc1fd142b0ef8.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.e736b05bc1fd142b0ef8.hot-update.js 3.58 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/index.js 477 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 1142 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.15975da3582e2db9aef9.hot-update.js 8.95 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.15975da3582e2db9aef9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.15975da3582e2db9aef9.hot-update.js 8.95 KiB
+cached modules 1.4 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1.7 KiB
+  ./src/index.js 374 bytes [built] [code generated]
+  ./src/router/index.js 1.34 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 1107 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.12f5c637dfeea8f61500.hot-update.js 6.53 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.12f5c637dfeea8f61500.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.12f5c637dfeea8f61500.hot-update.js 6.53 KiB
+cached modules 1.4 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.29 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 1085 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.844af43fbbd84bc6c870.hot-update.js 3.06 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.844af43fbbd84bc6c870.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.844af43fbbd84bc6c870.hot-update.js 3.06 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 220 bytes
+  ./src/view/ sync \.view\.js$ 219 bytes [built] [code generated]
+  ./src/view/index.view.js 1 bytes [optional] [built] [code generated]
+webpack 5.25.1 compiled successfully in 1116 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.0f12a7a1b5ea5d01064a.hot-update.js 2.75 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.0f12a7a1b5ea5d01064a.hot-update.json 54 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.0f12a7a1b5ea5d01064a.hot-update.js 2.75 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/view/ sync \.view\.js$ 199 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 449 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.5cdbc099345431c8a783.hot-update.js 4.92 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.5cdbc099345431c8a783.hot-update.json 69 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.5cdbc099345431c8a783.hot-update.js 4.92 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 574 bytes
+  ./src/index.js 375 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 791 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.b43a4db0d1373696f16a.hot-update.js 696 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 184 bytes [emitted]
+asset main.b43a4db0d1373696f16a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.b43a4db0d1373696f16a.hot-update.js 696 bytes
+cached modules 1.41 MiB [cached] 71 modules
+runtime modules 26.5 KiB 13 modules
+webpack 5.25.1 compiled successfully in 663 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.27cb11c41fc2e5c7fb26.hot-update.js 696 bytes [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.27cb11c41fc2e5c7fb26.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.27cb11c41fc2e5c7fb26.hot-update.js 696 bytes
+cached modules 1.41 MiB [cached] 71 modules
+runtime modules 26.5 KiB 13 modules
+webpack 5.25.1 compiled successfully in 884 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.bb3a4856729175ab39f0.hot-update.js 2.63 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.bb3a4856729175ab39f0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.bb3a4856729175ab39f0.hot-update.js 2.63 KiB
+cached modules 1.41 MiB [cached] 70 modules
 runtime modules 26.5 KiB 13 modules
 ./src/index.js 317 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 751 ms
+webpack 5.25.1 compiled successfully in 597 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.3d708c8dab9a25b9fd94.hot-update.js 2.26 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.3d708c8dab9a25b9fd94.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.3d708c8dab9a25b9fd94.hot-update.js 2.26 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.6e600df4119ef028bd93.hot-update.js 3.23 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.6e600df4119ef028bd93.hot-update.json 59 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.6e600df4119ef028bd93.hot-update.js 3.23 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/index.js 295 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 551 ms
+./src/index.js 481 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 652 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.1d8b026793b801d84d71.hot-update.js 2.87 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.1d8b026793b801d84d71.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.1d8b026793b801d84d71.hot-update.js 2.87 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.c756ebef16acd8e25431.hot-update.js 3.08 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.c756ebef16acd8e25431.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.c756ebef16acd8e25431.hot-update.js 3.08 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 418 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 519 ms
+./src/index.js 401 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 966 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.21d49600b3265bcc3cfc.hot-update.js 3.12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.21d49600b3265bcc3cfc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.21d49600b3265bcc3cfc.hot-update.js 3.12 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.c1feed0bbcee43e2e730.hot-update.js 3.48 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.c1feed0bbcee43e2e730.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.c1feed0bbcee43e2e730.hot-update.js 3.48 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 423 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 376 ms
+./src/index.js 457 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 891 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.65cca39c73a0b3ad7ebf.hot-update.js 3.25 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.65cca39c73a0b3ad7ebf.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.65cca39c73a0b3ad7ebf.hot-update.js 3.25 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.e095bf0eea64ac7029b6.hot-update.js 6.72 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.e095bf0eea64ac7029b6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.e095bf0eea64ac7029b6.hot-update.js 6.72 KiB
+cached modules 1.4 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 392 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 438 ms
+./src/router/index.js 1.33 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 812 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.bfb16dc057faf3398ba2.hot-update.js 3.11 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.bfb16dc057faf3398ba2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.bfb16dc057faf3398ba2.hot-update.js 3.11 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.769f8b6db77bdd044193.hot-update.js 5.93 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.769f8b6db77bdd044193.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.769f8b6db77bdd044193.hot-update.js 5.93 KiB
+cached modules 1.4 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 405 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 345 ms
+./src/router/index.js 1.16 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 1230 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.bca62add636f04ecf0eb.hot-update.js 11.9 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.bca62add636f04ecf0eb.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.bca62add636f04ecf0eb.hot-update.js 11.9 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.9f7adfe139a5d9748fea.hot-update.js 6.83 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.9f7adfe139a5d9748fea.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.9f7adfe139a5d9748fea.hot-update.js 6.83 KiB
+cached modules 1.4 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.39 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 484 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.90b8b47945115183cd5c.hot-update.js 11.9 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.90b8b47945115183cd5c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.90b8b47945115183cd5c.hot-update.js 11.9 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.39 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 456 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.89da9c50d3048017490b.hot-update.js 3.12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.89da9c50d3048017490b.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.89da9c50d3048017490b.hot-update.js 3.12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/test/index.js 411 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 685 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.ae4fb0257a559a9d72b9.hot-update.js 14 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.ae4fb0257a559a9d72b9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.ae4fb0257a559a9d72b9.hot-update.js 14 KiB
-cached modules 1.32 MiB [cached] 49 modules
-runtime modules 26.5 KiB 13 modules
-javascript modules 2.73 KiB
-  ./src/test/index.js 418 bytes [built] [code generated]
-  ./src/hooks/useAsync.js 2.32 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 679 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.c44aa661449b8447ebf4.hot-update.js 11.7 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.c44aa661449b8447ebf4.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.c44aa661449b8447ebf4.hot-update.js 11.7 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.34 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 720 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.6b5a2ce8c701dcf270bc.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.6b5a2ce8c701dcf270bc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.6b5a2ce8c701dcf270bc.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.42 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 725 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.12147e21c4aa0d96de89.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.12147e21c4aa0d96de89.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.12147e21c4aa0d96de89.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.41 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 581 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.f94f12158bde31a80936.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.f94f12158bde31a80936.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.f94f12158bde31a80936.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.41 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 667 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.667a4dd9ca98ab8e3615.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.667a4dd9ca98ab8e3615.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.667a4dd9ca98ab8e3615.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.42 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 341 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.afb05b452ab0fa3d5911.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.afb05b452ab0fa3d5911.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.afb05b452ab0fa3d5911.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.42 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 539 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.0a021fe089bae3daec35.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.0a021fe089bae3daec35.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.0a021fe089bae3daec35.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.42 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 609 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.7487f7c7f3faf98ddd31.hot-update.js 12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.7487f7c7f3faf98ddd31.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.7487f7c7f3faf98ddd31.hot-update.js 12 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.43 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 617 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.0171126db66e4dbd5162.hot-update.js 11.9 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.0171126db66e4dbd5162.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.0171126db66e4dbd5162.hot-update.js 11.9 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.39 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 385 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.8414d8bcfc32e6e9dcfd.hot-update.js 3.28 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.8414d8bcfc32e6e9dcfd.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.8414d8bcfc32e6e9dcfd.hot-update.js 3.28 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/test/index.js 405 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 710 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.5fba4174e7f3c58bf93d.hot-update.js 11.8 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.5fba4174e7f3c58bf93d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.5fba4174e7f3c58bf93d.hot-update.js 11.8 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.37 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 666 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.2b78a417dafc42f71147.hot-update.js 11.7 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.2b78a417dafc42f71147.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.2b78a417dafc42f71147.hot-update.js 11.7 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.37 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 618 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.11eda08305fb440e6685.hot-update.js 11.8 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.11eda08305fb440e6685.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.11eda08305fb440e6685.hot-update.js 11.8 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.37 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 732 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.19f077e70af5a8d4e6a6.hot-update.js 2.75 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.19f077e70af5a8d4e6a6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.19f077e70af5a8d4e6a6.hot-update.js 2.75 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useBoolean.js 323 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 684 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.9dbb23d499c7d0aac244.hot-update.js 2.78 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.9dbb23d499c7d0aac244.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.9dbb23d499c7d0aac244.hot-update.js 2.78 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useBoolean.js 323 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 317 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.9daed819f2e6e9be1db5.hot-update.js 2.77 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.9daed819f2e6e9be1db5.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.9daed819f2e6e9be1db5.hot-update.js 2.77 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useBoolean.js 323 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 913 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.9238490b2b33059f3d9b.hot-update.js 4.34 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.9238490b2b33059f3d9b.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.9238490b2b33059f3d9b.hot-update.js 4.34 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/test/index.js 758 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 863 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.a5a4d59b6d20f2f12048.hot-update.js 2.89 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.a5a4d59b6d20f2f12048.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.a5a4d59b6d20f2f12048.hot-update.js 2.89 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useBoolean.js 349 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 458 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.52 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.2e7bf14487e43662036f.hot-update.js 4.56 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.2e7bf14487e43662036f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.52 MiB = main.js 3.52 MiB main.2e7bf14487e43662036f.hot-update.js 4.56 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/test/index.js 765 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 568 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.88990792613751cda7b7.hot-update.js 12.1 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.88990792613751cda7b7.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.88990792613751cda7b7.hot-update.js 12.1 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.44 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 697 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.b7cd6edebcab45a94197.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.b7cd6edebcab45a94197.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.b7cd6edebcab45a94197.hot-update.js 12.3 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.46 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 676 ms
-[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
-[34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.77f45126db34cd3e989f.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.77f45126db34cd3e989f.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.77f45126db34cd3e989f.hot-update.js 12.3 KiB
-cached modules 1.32 MiB [cached] 50 modules
-runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.48 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 824 ms
+javascript modules 1.21 KiB
+  ./src/router/index.js 1.01 KiB [built] [code generated]
+  ./src/component/AuthRoute/index.js 210 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 854 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
 [34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.62 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.105e71ee84e021e84539.hot-update.js 99.7 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.105e71ee84e021e84539.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.62 MiB = main.js 3.52 MiB main.105e71ee84e021e84539.hot-update.js 99.7 KiB
-cached modules 1.32 MiB [cached] 49 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.1a2ab38da6ccb69b3c99.hot-update.js 5.73 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.1a2ab38da6ccb69b3c99.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.1a2ab38da6ccb69b3c99.hot-update.js 5.73 KiB
+cached modules 1.4 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-javascript modules 3.23 KiB
-  ./src/test/index.js 765 bytes [code generated]
-  ./src/hooks/useAsync.js 2.48 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 423 ms
+./src/router/index.js 1.15 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 1241 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.5fdbd659fd8e64322375.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.5fdbd659fd8e64322375.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.5fdbd659fd8e64322375.hot-update.js 12.3 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.f43fafe7fa395cac3752.hot-update.js 7.02 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.f43fafe7fa395cac3752.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.f43fafe7fa395cac3752.hot-update.js 7.02 KiB
+cached modules 1.4 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync.js 2.48 KiB [built] [code generated]
-webpack 5.25.1 compiled successfully in 726 ms
+./src/router/index.js 1.41 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 835 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.0cea871955b79ae91e6a.hot-update.js 7.62 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.0cea871955b79ae91e6a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.0cea871955b79ae91e6a.hot-update.js 7.62 KiB
-cached modules 1.32 MiB [cached] 50 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.3eb551062239808e0a42.hot-update.js 6.85 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.3eb551062239808e0a42.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.3eb551062239808e0a42.hot-update.js 6.85 KiB
+cached modules 1.4 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-javascript modules 1.36 KiB
-  ./src/test/index.js 829 bytes [built] [code generated]
-  ./src/hooks/useAsync1.js 564 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 839 ms
+./src/router/index.js 1.39 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 885 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.003668bf178fa710986e.hot-update.js 4.58 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.003668bf178fa710986e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.003668bf178fa710986e.hot-update.js 4.58 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.4c8883a85b056592e542.hot-update.js 7.19 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.4c8883a85b056592e542.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.4c8883a85b056592e542.hot-update.js 7.19 KiB
+cached modules 1.4 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 865 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 949 ms
+./src/router/index.js 1.45 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 879 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.0ff2344687568a99563b.hot-update.js 4.43 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.0ff2344687568a99563b.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.0ff2344687568a99563b.hot-update.js 4.43 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.942de7f7f2cc96ef92a6.hot-update.js 5.54 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.942de7f7f2cc96ef92a6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.942de7f7f2cc96ef92a6.hot-update.js 5.54 KiB
+cached modules 1.41 MiB [cached] 70 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 878 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 515 ms
+./src/index.js 449 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 578 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.862920cc8d75eff605aa.hot-update.js 4.59 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.862920cc8d75eff605aa.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.862920cc8d75eff605aa.hot-update.js 4.59 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.12c81c280e590a887955.hot-update.js 7.8 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.12c81c280e590a887955.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.12c81c280e590a887955.hot-update.js 7.8 KiB
+cached modules 1.4 MiB [cached] 70 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 925 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 679 ms
+./src/router/index.js 1.58 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 772 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.98a2de0fed75733de37c.hot-update.js 4.58 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.98a2de0fed75733de37c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.98a2de0fed75733de37c.hot-update.js 4.58 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.5f28d428388717aefea7.hot-update.js 7.79 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.5f28d428388717aefea7.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.5f28d428388717aefea7.hot-update.js 7.79 KiB
+cached modules 1.4 MiB [cached] 70 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 865 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 572 ms
+./src/router/index.js 1.58 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 824 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.4b837dda8ec3c2dea9a9.hot-update.js 4.16 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.4b837dda8ec3c2dea9a9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.4b837dda8ec3c2dea9a9.hot-update.js 4.16 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.98cc57b9d0f60d484892.hot-update.js 7.8 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.98cc57b9d0f60d484892.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.98cc57b9d0f60d484892.hot-update.js 7.8 KiB
+cached modules 1.4 MiB [cached] 70 modules
 runtime modules 26.5 KiB 13 modules
-./src/hooks/useAsync1.js 614 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 499 ms
+./src/router/index.js 1.58 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 369 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.9b2fd0762a1864452a63.hot-update.js 4.12 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.9b2fd0762a1864452a63.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.9b2fd0762a1864452a63.hot-update.js 4.12 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.39ae2e16d791740d93e1.hot-update.js 7.87 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.39ae2e16d791740d93e1.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.39ae2e16d791740d93e1.hot-update.js 7.87 KiB
+cached modules 1.4 MiB [cached] 70 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 629 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 742 ms
+./src/router/index.js 1.58 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 654 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.7a8f42a6c099a923606d.hot-update.js 4.58 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.7a8f42a6c099a923606d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.7a8f42a6c099a923606d.hot-update.js 4.58 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.1d01e20dccb907732301.hot-update.js 7.19 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.1d01e20dccb907732301.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.1d01e20dccb907732301.hot-update.js 7.19 KiB
+cached modules 1.4 MiB [cached] 70 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 865 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 307 ms
+./src/router/index.js 1.45 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 510 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.31a3da887a5ca850fef7.hot-update.js 4.64 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.31a3da887a5ca850fef7.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.31a3da887a5ca850fef7.hot-update.js 4.64 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.11d5ef186d3f92f18ea6.hot-update.js 4.31 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.11d5ef186d3f92f18ea6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.11d5ef186d3f92f18ea6.hot-update.js 4.31 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 873 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 359 ms
+javascript modules 902 bytes
+  ./src/view/main.view.js 703 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 570 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.53 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.9db5576797a97c46c0c0.hot-update.js 4.63 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.9db5576797a97c46c0c0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.53 MiB = main.js 3.52 MiB main.9db5576797a97c46c0c0.hot-update.js 4.63 KiB
-cached modules 1.32 MiB [cached] 51 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.ef07ca7b32e04ca03e9e.hot-update.js 4.28 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.ef07ca7b32e04ca03e9e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.ef07ca7b32e04ca03e9e.hot-update.js 4.28 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-./src/test/index.js 873 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 596 ms
+javascript modules 874 bytes
+  ./src/view/login.view.js 675 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 923 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
 [34mℹ[39m [90m｢wdm｣[39m: Compiling...
-[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.54 MiB
-  asset main.js 3.52 MiB [emitted] (name: main)
-  asset main.ce37126b1a79a3ffba6b.hot-update.js 20.3 KiB [emitted] [immutable] [hmr] (name: main)
-asset index.html 184 bytes [emitted]
-asset main.ce37126b1a79a3ffba6b.hot-update.json 54 bytes [emitted] [immutable] [hmr]
-Entrypoint main 3.54 MiB = main.js 3.52 MiB main.ce37126b1a79a3ffba6b.hot-update.js 20.3 KiB
-cached modules 1.32 MiB [cached] 48 modules
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.bbd93b1cc02e720ebb0c.hot-update.js 4.29 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.bbd93b1cc02e720ebb0c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.bbd93b1cc02e720ebb0c.hot-update.js 4.29 KiB
+cached modules 1.41 MiB [cached] 69 modules
 runtime modules 26.5 KiB 13 modules
-javascript modules 4.2 KiB
-  ./src/test/index.js 1.05 KiB [built] [code generated]
-  ./src/hooks/useAsync.js 2.71 KiB [built] [code generated]
-  ./src/hooks/useBoolean.js 453 bytes [built] [code generated]
-webpack 5.25.1 compiled successfully in 904 ms
+javascript modules 877 bytes
+  ./src/view/login.view.js 678 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1311 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.71e2359afb5423359cd2.hot-update.js 4.46 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.71e2359afb5423359cd2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.71e2359afb5423359cd2.hot-update.js 4.46 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 930 bytes
+  ./src/view/main.view.js 731 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1013 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /main/999
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.4cb4d06f2cd1d9addb0c.hot-update.js 4.34 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.4cb4d06f2cd1d9addb0c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.4cb4d06f2cd1d9addb0c.hot-update.js 4.34 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 871 bytes
+  ./src/view/main.view.js 672 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 828 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.8dcea77586bf83f9e5e4.hot-update.js 4.49 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.8dcea77586bf83f9e5e4.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.8dcea77586bf83f9e5e4.hot-update.js 4.49 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 937 bytes
+  ./src/view/main.view.js 738 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 517 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.ebeada8e7bf28297736d.hot-update.js 4.48 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.ebeada8e7bf28297736d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.ebeada8e7bf28297736d.hot-update.js 4.48 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 933 bytes
+  ./src/view/main.view.js 734 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 888 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.35615bb49e742dd37445.hot-update.js 4.29 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.35615bb49e742dd37445.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.35615bb49e742dd37445.hot-update.js 4.29 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 873 bytes
+  ./src/view/login.view.js 674 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1117 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.43897304520801054170.hot-update.js 4.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.43897304520801054170.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.43897304520801054170.hot-update.js 4.3 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 880 bytes
+  ./src/view/login.view.js 681 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 993 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.e3c7d69b836c8ee02b1d.hot-update.js 4.49 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.e3c7d69b836c8ee02b1d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.e3c7d69b836c8ee02b1d.hot-update.js 4.49 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 937 bytes
+  ./src/view/main.view.js 738 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 522 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.62466ed8d768b7f1a50a.hot-update.js 3.46 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.62466ed8d768b7f1a50a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.62466ed8d768b7f1a50a.hot-update.js 3.46 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/index.js 458 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 745 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.5a576c1fa63d17330e8a.hot-update.js 7.58 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.5a576c1fa63d17330e8a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.5a576c1fa63d17330e8a.hot-update.js 7.58 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.79 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 1182 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.aaa5bd20d72e18da30d8.hot-update.js 7.19 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.aaa5bd20d72e18da30d8.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.aaa5bd20d72e18da30d8.hot-update.js 7.19 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.45 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 711 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.a7ad1b79156c9fdc98fc.hot-update.js 4.29 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.a7ad1b79156c9fdc98fc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.a7ad1b79156c9fdc98fc.hot-update.js 4.29 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 877 bytes
+  ./src/view/login.view.js 678 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1011 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.0d0ab224aa8f6ee59fe0.hot-update.js 4.85 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.0d0ab224aa8f6ee59fe0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.0d0ab224aa8f6ee59fe0.hot-update.js 4.85 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1020 bytes
+  ./src/view/main.view.js 823 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 933 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.cfbaa8b75a06bcf2b36e.hot-update.js 7.24 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.cfbaa8b75a06bcf2b36e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.cfbaa8b75a06bcf2b36e.hot-update.js 7.24 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/router/index.js 1.46 KiB [built] [code generated]
+webpack 5.25.1 compiled successfully in 789 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.2f895bfda2d6c0eaadb6.hot-update.js 4.08 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.2f895bfda2d6c0eaadb6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.2f895bfda2d6c0eaadb6.hot-update.js 4.08 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 839 bytes
+  ./src/view/login.view.js 640 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1071 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.c0d1ce4f9b7ea4061c10.hot-update.js 8.49 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.c0d1ce4f9b7ea4061c10.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.c0d1ce4f9b7ea4061c10.hot-update.js 8.49 KiB
+cached modules 1.41 MiB [cached] 68 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1.69 KiB
+  ./src/view/login.view.js 673 bytes [built] [code generated]
+  ./src/view/main.view.js 857 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1250 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.3edcffcc49725d8114e6.hot-update.js 4.29 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.3edcffcc49725d8114e6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.3edcffcc49725d8114e6.hot-update.js 4.29 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 880 bytes
+  ./src/view/login.view.js 681 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 885 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.2c6031bb078a16f7b5d2.hot-update.js 4.62 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.2c6031bb078a16f7b5d2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.2c6031bb078a16f7b5d2.hot-update.js 4.62 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 962 bytes
+  ./src/view/login.view.js 763 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1044 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.0cc32b6c90c72d5d7b74.hot-update.js 4.6 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.0cc32b6c90c72d5d7b74.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.0cc32b6c90c72d5d7b74.hot-update.js 4.6 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 954 bytes
+  ./src/view/login.view.js 755 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 970 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.2adde463d4ca1a247dab.hot-update.js 4.85 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.2adde463d4ca1a247dab.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.2adde463d4ca1a247dab.hot-update.js 4.85 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1020 bytes
+  ./src/view/main.view.js 824 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 747 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.32f88fc085a9fbc2f4a2.hot-update.js 4.83 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.32f88fc085a9fbc2f4a2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.32f88fc085a9fbc2f4a2.hot-update.js 4.83 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1020 bytes
+  ./src/view/main.view.js 823 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 396 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.7bad9b7d06d8c6a4f046.hot-update.js 4.68 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.7bad9b7d06d8c6a4f046.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.7bad9b7d06d8c6a4f046.hot-update.js 4.68 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 988 bytes
+  ./src/view/main.view.js 789 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 846 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.086fd16242aafebc9ed1.hot-update.js 4.83 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.086fd16242aafebc9ed1.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.086fd16242aafebc9ed1.hot-update.js 4.83 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1.02 KiB
+  ./src/view/main.view.js 843 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 763 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.78 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.8ba71f6ddcd09c54177c.hot-update.js 5.15 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.8ba71f6ddcd09c54177c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.78 MiB = main.js 3.77 MiB main.8ba71f6ddcd09c54177c.hot-update.js 5.15 KiB
+cached modules 1.41 MiB [cached] 69 modules
+runtime modules 26.5 KiB 13 modules
+javascript modules 1.11 KiB
+  ./src/view/main.view.js 940 bytes [built] [code generated]
+  ./src/view/ sync nonrecursive \.view\.js$ 199 bytes [built]
+webpack 5.25.1 compiled successfully in 1242 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.9bd56bcf21b3c0775018.hot-update.js 3.47 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.9bd56bcf21b3c0775018.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.9bd56bcf21b3c0775018.hot-update.js 3.47 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/index.js 461 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 930 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: assets by path *.js 3.77 MiB
+  asset main.js 3.77 MiB [emitted] (name: main)
+  asset main.6bf03517125e2a996965.hot-update.js 3.46 KiB [emitted] [immutable] [hmr] (name: main)
+asset index.html 212 bytes [emitted]
+asset main.6bf03517125e2a996965.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 3.77 MiB = main.js 3.77 MiB main.6bf03517125e2a996965.hot-update.js 3.46 KiB
+cached modules 1.41 MiB [cached] 70 modules
+runtime modules 26.5 KiB 13 modules
+./src/index.js 458 bytes [built] [code generated]
+webpack 5.25.1 compiled successfully in 1017 ms
 [34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
