@@ -6,7 +6,7 @@ import {useHistory, useLocation, useParams} from "react-router";
 
 export default createRoute(['/main/:id', '/main'], ()=>{
 
-    const [t,s,clearToken] = useLocalStorage(config.TOKEN_KEY);
+    const [_,__,clearToken] = useLocalStorage(config.TOKEN_KEY);
     const {replace} = useHistory();
     const {id} = useParams();
     const {state = {}, query = {}} = useLocation();

@@ -1,8 +1,6 @@
 import React from "react";
-import {BrowserRouter, HashRouter, Switch} from 'react-router-dom';
+import {HashRouter, Switch} from 'react-router-dom';
 import {collectRoutes} from "./router";
-import Login from './view/login.view';
-import Main from './view/main.view';
 
 const App = ()=> {
 
