@@ -5,7 +5,7 @@ import useLocalStorage from "../hooks/useLocalStorage";
 
 const AuthRoute = ({auth = true, ...args})=> {
     const [token] = useLocalStorage(config.TOKEN_KEY);
-
+    console.log(args.path)
     if (!auth) return <Route {...args}/>
     if (!token) return <Redirect to={config.REDIRECT_PATH}/>
     return <Route {...args}/>
@@ -29,7 +29,7 @@ export const createRoute = (_path = '', container)=> {
         if (Array.isArray(path)) {
             return path.map(p=><Route path={p} component={container} strict={strict} exact={exact} auth={auth}/>)
         } else {
-            return <Route path={path} component={container} strict={strict} exact={exact} auth={auth}/>;
+            return <AuthRoute path={path} component={container} strict={strict} exact={exact} auth={auth}/>;
         }
     }
     return <Fragment/>
