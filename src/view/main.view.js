@@ -1,15 +1,23 @@
 import {createRoute} from "../router";
 import React from "react";
 import LayoutForTopBarPanel from "../component/LayoutForTopBarPanel";
-import useRequest from "../hooks/useRequest";
+import {getPassportInfo} from "./store/passport";
+import {Switch} from "react-router";
 
 export default createRoute('/main', ()=>{
 
-    const [user] = useRequest()
+    const [{userInfo = {}, permissions = []}] = getPassportInfo();
+
+    const routes = '';
 
     return (
         <div>
-            <LayoutForTopBarPanel/>
+            <LayoutForTopBarPanel info={userInfo} />
+            <div>
+                <Switch>
+
+                </Switch>
+            </div>
         </div>
     )
 })

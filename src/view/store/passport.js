@@ -4,6 +4,7 @@ const API = {
     info : '/passport/info'
 }
 
-export const getInfo = ()=> {
+export const getPassportInfo = ()=> {
     return useAuthPostJSON({url: API.info}, {})
 }
+
