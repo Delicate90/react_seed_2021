@@ -1,7 +1,9 @@
+import {useAuthPostJSON} from "../../hooks/useRequest";
+
 const API = {
-    'passport.info' : '/passport/info'
+    info : '/passport/info'
 }
 
 export const getInfo = ()=> {
-    return
+    return useAuthPostJSON({url: API.info}, {})
 }
