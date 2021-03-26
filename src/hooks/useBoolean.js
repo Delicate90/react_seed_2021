@@ -5,7 +5,6 @@ const useBoolean = (initData = false, key)=>{
 
 
     const set = (_bool)=> {
-        console.log('key:', _bool)
         setBool(_bool)
     }
 

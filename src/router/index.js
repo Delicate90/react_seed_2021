@@ -5,7 +5,6 @@ import useLocalStorage from "../hooks/useLocalStorage";
 
 const AuthRoute = ({auth = true, ...args})=> {
     const [token] = useLocalStorage(config.TOKEN_KEY);
-    console.log(args.path)
     if (!auth) return <Route {...args}/>
     if (!token) return <Redirect to={config.REDIRECT_PATH}/>
     return <Route {...args}/>

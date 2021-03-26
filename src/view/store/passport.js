@@ -5,6 +5,7 @@ const API = {
 }
 
 export const getPassportInfo = ()=> {
-    return useAuthPostJSON({url: API.info}, {})
+    return useAuthPostJSON({url: API.info}, {auto: false})
 }
 
+// export const

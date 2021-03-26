@@ -1,6 +1,6 @@
 import React from "react";
 
-const LayoutForTopBarPanel = ()=> {
+const LayoutForTopBarPanel = ({info = {}, permission = []})=> {
     return (
         <div>top</div>
     )

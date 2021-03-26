@@ -39,7 +39,6 @@ const useAsync = (promiseA, {
         }).finally(()=>{
             if (loadingDelay && typeof loadingDelay === 'number' && loadingDelay > 0) {
                 loadingDelayContainer = setTimeout(()=>{
-                    console.log('loadingDelay:', loadingDelay)
                     stopLoading();
                     ready = true;
                 }, loadingDelay)
@@ -51,12 +50,10 @@ const useAsync = (promiseA, {
     };
 
     const run = useCallback(()=> {
-        console.log('async promise')
         if (pollingInterval && typeof pollingInterval === 'number' && pollingInterval > 0) {
             pollingContainer = setInterval(()=>{
                 _run();
                 pollingIndex++;
-                console.log('pollingIndex:', pollingIndex);
             }, pollingInterval)
         } else {
             _run()
@@ -94,7 +91,6 @@ const useAsync = (promiseA, {
     //--执行阶段
     //主参数格式判断
     if (!promiseA || !promiseA instanceof Promise) {
-        console.error('useAsync -> found no Promise.')
     } else {
         useEffect(()=>{
             if (auto) {

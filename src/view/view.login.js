@@ -15,11 +15,7 @@ export default createRoute({path: '/login', auth: false}, ()=>{
 
     const login = ()=> {
         setToken('12334353453523123123');
-        history.replace({
-            pathname: '/main/999',
-            state: {vvv: 'vvv'},
-            query: {qqq: 'qqq'}
-        });
+        history.replace('/main');
     };
 
     return (

@@ -1,0 +1,29 @@
+{
+  "state": "23412543",
+  "stateStr": "运营方运营专员补充资料",
+  "reasonType": "warning",
+  "reason": "sldkfsldfadfsmsdfsdgdf",
+  "components": [
+    {
+      "sid": "999999999",
+      "cid": "RejectWithReasonModal",
+      "type": "follow",
+      "render": "component",
+      "export": {
+        "id": "3436513454362",
+        "name": "驳回",
+        "url": "/approve/reject"
+      }
+    }, {
+      "sid": "88888888",
+      "cid": "CompanyBasicInfo",
+      "type": "interact",
+      "render": "component",
+      "import": {
+        "id": "3436513454362",
+        "name": "驳回",
+        "url": "/detail/company/info"
+      }
+    }
+  ]
+}

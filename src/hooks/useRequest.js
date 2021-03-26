@@ -20,7 +20,7 @@ export const useRequest = (service = {}, options = {})=> {
         return new Promise((resolve, reject) => {
             AXIOS(service).then(res=>{
                 console.log(res)
-                return res
+                return res.data
             }).then(res=>{
                 resolve(res)
             }).catch(err=>{
