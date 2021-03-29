@@ -4,8 +4,10 @@
     "qs": "^6.10.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-error-boundary": "^3.1.1",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "react-server-dom-webpack": "0.0.0-experimental-6a589ad71"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
